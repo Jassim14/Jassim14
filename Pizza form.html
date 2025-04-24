@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZA ORDER FORM</title>
+</head>
+
+<body style="padding-top: 5%;">
+    <form style="background-color: lightgray;width: 50%;font-size: small;margin: auto;padding: 20px;justify-content: safe;">
+        <fieldset>
+            <legend align="center">PIZZA ORDER FORM</legend>
+            <fieldset>
+                <legend>Delivery address</legend>
+                <form>
+                    FULL NAME <input type="text" name="name" placeholder="full name"style="margin-left: 10%;">
+                    STREET ADDRESS:<input type="text" name="address"placeholder="address"style="margin-left: 5.5%;"> <br><br>
+                    PHONE <input type="phone" name="number" placeholder="phone number"style="margin-left: 15%;">
+                    EMAIL<input type="email" name="email"placeholder="email"style="margin-left: 17%;"> <br><br>
+                    PASSWORD<input type="password" name="password"placeholder="password"style="margin-left: 11.2%;">
+                </form>
+            </fieldset>
+            <fieldset>
+                <legend>Payment Information</legend>
+                <form>
+                    Card type <select id="card" name="card"style="width:27%;margin-left: 13%;">
+                        <option value="Visa">VISA</option>
+                        <option value="nmb">NMB</option>
+                        <option value="crdb">CRDB</option>
+                    </select>
+                    Card Number<input type="phone" name="number"placeholder="card number"style="margin-left: 12%;"> <br><br>
+                    Name on Card <input type="text" name="name"placeholder="name"style="margin-left: 10%;">
+                </form>
+            </fieldset>
+            <fieldset>
+                <legend>Customize your Pizza</legend>
+                <form>
+                    Pizza size<select id="size" name="size" style="width: 27%;margin-left: 14%;">
+                        <option value="large">Large</option>
+                        <option value="medium">Medium</option>
+                        <option value="small">Small</option>
+                    </select>
+                    Quantity<input type="text" name="number"><br><br>
+                    Spices: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Black pepper<input type="checkbox"name="spices" value="hot"> Bell pepper<input type="checkbox"name="spices" value="hot"> Mayonise<input type="checkbox"name="spices" value="hot"> <br><br>
+                    Other requirment <textarea style="height: 50px;margin-left: 8%;"> any other requirement</textarea>
+                    meat: 
+                    fish<input type="radio" name="meat">
+                    cow<input type="radio" name="meat">
+                    chicken<input type="radio" name="meat">
+
+                </form>
+            </fieldset>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="clear">clear order</button>
+            <button type="submit">place order</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
